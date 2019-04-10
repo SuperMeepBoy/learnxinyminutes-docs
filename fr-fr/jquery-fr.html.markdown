@@ -45,10 +45,10 @@ function onAction() {
 $('#btn').click(onAction); // Appelle onAction à chaque clic
 
 function onAction() {
-  // Ceci est exécuté quand un évènement est déclenché
+  // Ceci est exécuté quand un événement est déclenché
 }
 
-// D'autres évènements communs :
+// D'autres événements communs :
 $('#btn').dblclick(onAction); // Double clic
 $('#btn').hover(onAction); // Survol de la souris
 $('#btn').focus(onAction); // Gain du focus
@@ -129,7 +129,7 @@ $('p').height(); // Renvoie la hauteur de l'élément ou la change
 
 
 // Pour beaucoup de méthodes de manipulation, récupérer des informations
-// d'un élément renverra SEULEMENT ceelles du premier
+// d'un élément renverra SEULEMENT celles du premier
 $('p').height(); // Renvoie SEULEMENT la hauteur du premier élément 'p'
 
 // On peut utiliser 'each' pour parcourir tous les éléments
